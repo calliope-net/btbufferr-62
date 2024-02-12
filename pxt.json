@@ -3,7 +3,11 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "v2": "*"
+        "v2": "*",
+        "radio": "*",
+        "lcd-20x4": "github:calliope-net/lcd-20x4#v2.0.1",
+        "i2c": "github:calliope-net/i2c#v2.1.1",
+        "bit": "github:calliope-net/bit#v1.3.4"
     },
     "files": [
         "main.blocks",
